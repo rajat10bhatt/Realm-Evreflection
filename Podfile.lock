@@ -1,0 +1,29 @@
+PODS:
+  - EVReflection/Core (5.7.0)
+  - EVReflection/Realm (5.7.0):
+    - EVReflection/Core
+    - RealmSwift
+  - Realm (3.7.6):
+    - Realm/Headers (= 3.7.6)
+  - Realm/Headers (3.7.6)
+  - RealmSwift (3.7.6):
+    - Realm (= 3.7.6)
+
+DEPENDENCIES:
+  - EVReflection/Realm
+  - RealmSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EVReflection
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  EVReflection: c579d225cf0ec062d80f35f5af82acd770016a76
+  Realm: 9eaecad54712d6246d08ba34c10f354e4715d7d3
+  RealmSwift: 1fe08b4ebaeeaacf17f9ba0343f7b25c9fc31fa6
+
+PODFILE CHECKSUM: cd971237abdb459d4eb22d813766ecf77ca6230d
+
+COCOAPODS: 1.5.3
